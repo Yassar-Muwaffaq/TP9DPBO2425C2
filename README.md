@@ -211,15 +211,7 @@ Screen record demonstrasi CRUD untuk:
 > **Author:** Yassar Muwaffaq
 > **Mata Kuliah:** Desain dan Pemrograman Berorientasi Objek
 > **Semester:** 3
-> **Tahun:** 2024/2025
+> **Tahun:** 2024/2025                    
 > **Dosen:** Rosa Ariani
 
 ```
-
-
-https://github.com/user-attachments/assets/462ecb54-6c7e-4a7a-a687-f5ba79ff8be8
-
-
-
-
-
