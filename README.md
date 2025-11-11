@@ -53,9 +53,10 @@ Database: `game_store`
 - **games.genre_id → genres.id**
 
 Diagram relasi sederhana:
-```
 
 developers (1)───(∞) games (∞)───(1) genres
+
+```
 
 ````
 
@@ -218,6 +219,7 @@ Screen record demonstrasi CRUD untuk:
 > **Dosen:** Rosa Ariani
 
 ```
+
 
 
 
