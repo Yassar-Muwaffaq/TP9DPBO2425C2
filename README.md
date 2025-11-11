@@ -136,7 +136,7 @@ TP7DPBO2425C2/
 │        ├─ list.php
 │        └─ form.php
 ├─ database.sql
-├─ Demo.mp4                   #Video Dokumentasi
+├─ Demo.mp4                   # Video Dokumentasi
 └─ README.md
 ```
 
@@ -164,9 +164,9 @@ TP7DPBO2425C2/
 
 | Entitas    | Create | Read | Update | Delete |
 | ---------- | ------ | ---- | ------ | ------ |
-| Games      | ✅      | ✅    | ✅      | ✅      |
-| Developers | ✅      | ✅    | ✅      | ✅      |
-| Genres     | ✅      | ✅    | ✅      | ✅      |
+| Games      | ✅    | ✅   | ✅     | ✅    |
+| Developers | ✅    | ✅   | ✅     | ✅    |
+| Genres     | ✅    | ✅   | ✅     | ✅    |
 
 Semua operasi database menggunakan **PDO + Prepared Statements** (aman dari SQL Injection).
 
@@ -219,6 +219,7 @@ Screen record demonstrasi CRUD untuk:
 > **Dosen:** Rosa Ariani
 
 ```
+
 
 
 
