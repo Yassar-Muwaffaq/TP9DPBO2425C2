@@ -18,7 +18,7 @@ Setiap game memiliki **developer** dan **genre**, dan data ini saling berhubunga
 
 ## 🧱 Struktur Database
 
-Database: `tp7_gamestore`
+Database: `game_store`
 
 ### 1. `developers`
 | Kolom | Tipe | Keterangan |
@@ -62,11 +62,11 @@ developers (1)───(∞) games (∞)───(1) genres
 ---
 
 ## 💾 File SQL (Database)
-File: `tp7_games.sql`
+File: `game_store.sql`
 
 ```sql
-CREATE DATABASE IF NOT EXISTS tp7_gamestore;
-USE tp7_gamestore;
+CREATE DATABASE IF NOT EXISTS game_store;
+USE game_store;
 
 CREATE TABLE developers (
   id INT AUTO_INCREMENT PRIMARY KEY,
@@ -143,9 +143,9 @@ TP7DPBO2425C2/
 
 ## 💻 Cara Menjalankan Aplikasi
 
-1. Jalankan **MySQL** dan import `tp7_games.sql`.
-2. Edit file `src/config/database.php` bila perlu (user, password, db name).
-3. Jalankan server PHP di path folder public/:
+1. Jalankan **MySQL** dan import `database.sql`.
+2. Edit file `src/config/Database.php` bila perlu (user, password, db name).
+3. Jalankan server PHP di folder project:
 
    ```bash
    php -S localhost:8000 -t public
@@ -218,6 +218,7 @@ Screen record demonstrasi CRUD untuk:
 > **Dosen:** Rosa Ariani
 
 ```
+
 
 
 
